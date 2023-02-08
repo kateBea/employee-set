@@ -6,8 +6,7 @@
 
 class employee {
 public:
-    employee() = default;
-    employee(std::string_view str, double salary) noexcept
+    employee(std::string_view str, double salary)
         :   m_name{ str }, m_salary{ salary }
     {   }
 
