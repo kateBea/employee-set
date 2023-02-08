@@ -52,7 +52,7 @@ int main(int, char**) {
     std::set<employee, func_t> s1(first);
 
     s1.emplace("Jordan", 200);
-    s1.emplace("Gerald", 100);
+    s1.emplace("American Captain", 100);
     s1.emplace("Kisbert", 300);
     s1.emplace("Ciri", 400);
     s1.emplace("Gisbert", 500);
