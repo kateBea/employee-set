@@ -54,7 +54,7 @@ int main(int, char**) {
     s1.emplace("Jordan", 200);
     s1.emplace("Gerald", 100);
     s1.emplace("Kisbert", 300);
-    s1.emplace("Old", 400);
+    s1.emplace("Ciri", 400);
     s1.emplace("Gisbert", 500);
 
 
@@ -65,7 +65,7 @@ int main(int, char**) {
 
     std::set<employee, func_copy_t> s2(second);
 
-    s2.emplace("Jordan", 200);
+    s2.emplace("Gandalf", 200);
     s2.emplace("Gerald", 100);
     s2.emplace("Kisbert", 300);
     s2.emplace("Cytnhia", 400);
